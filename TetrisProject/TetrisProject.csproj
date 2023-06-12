@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <IsPublishable>True</IsPublishable>
+    <ApplicationIcon>TetrisAssets\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TetrisAssets\Background.png" />
+    <None Remove="TetrisAssets\BlockEmpty.png" />
+    <None Remove="TetrisAssets\Blue.png" />
+    <None Remove="TetrisAssets\Green.png" />
+    <None Remove="TetrisAssets\I.png" />
+    <None Remove="TetrisAssets\Icon.ico" />
+    <None Remove="TetrisAssets\J.png" />
+    <None Remove="TetrisAssets\L.png" />
+    <None Remove="TetrisAssets\LightBlue.png" />
+    <None Remove="TetrisAssets\O.png" />
+    <None Remove="TetrisAssets\Orange.png" />
+    <None Remove="TetrisAssets\Purple.png" />
+    <None Remove="TetrisAssets\Red.png" />
+    <None Remove="TetrisAssets\S.png" />
+    <None Remove="TetrisAssets\T.png" />
+    <None Remove="TetrisAssets\TileEmpty.png" />
+    <None Remove="TetrisAssets\Yellow.png" />
+    <None Remove="TetrisAssets\Z.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TetrisAssets\Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="TetrisAssets\Background.png" />
+    <Resource Include="TetrisAssets\BlockEmpty.png" />
+    <Resource Include="TetrisAssets\Blue.png" />
+    <Resource Include="TetrisAssets\Green.png" />
+    <Resource Include="TetrisAssets\I.png" />
+    <Resource Include="TetrisAssets\Icon.ico" />
+    <Resource Include="TetrisAssets\J.png" />
+    <Resource Include="TetrisAssets\L.png" />
+    <Resource Include="TetrisAssets\LightBlue.png" />
+    <Resource Include="TetrisAssets\O.png" />
+    <Resource Include="TetrisAssets\Orange.png" />
+    <Resource Include="TetrisAssets\Purple.png" />
+    <Resource Include="TetrisAssets\Red.png" />
+    <Resource Include="TetrisAssets\S.png" />
+    <Resource Include="TetrisAssets\T.png" />
+    <Resource Include="TetrisAssets\TileEmpty.png" />
+    <Resource Include="TetrisAssets\Yellow.png" />
+    <Resource Include="TetrisAssets\Z.png" />
+  </ItemGroup>
+
+</Project>
